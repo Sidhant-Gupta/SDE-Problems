@@ -1,6 +1,9 @@
 // n vertices,m edges, m lines follow->edges. (enter u,v, cost)
 // enter q.q queries follow. enter src and destination .tell shortest dist between src and dest for all queries.
 
+// LINK FOR PRATCTICE QUESTION
+// https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/practice-problems/algorithm/minimizing-path-cost/description/
+
 
 #include<bits/stdc++.h>
 using namespace std;
