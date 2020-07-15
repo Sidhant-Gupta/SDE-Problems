@@ -8,7 +8,7 @@ int kp(int ind,int wt[],int val[],int n,int cap){
     if(dp[ind][cap]!=-1)
         return dp[ind][cap];
     int ans1,ans2;
-    ans1=wt[ind]<=cap ? val[ind]+kp(ind+1,wt,val,n,cap-wt[ind]) : 0;
+    ans1= wt[ind]<=cap ? val[ind]+kp(ind+1,wt,val,n,cap-wt[ind]) : 0;
     ans2=kp(ind+1,wt,val,n,cap);
     dp[ind][cap]= max(ans1,ans2);
     return dp[ind][cap];
