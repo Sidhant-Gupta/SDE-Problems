@@ -1,3 +1,7 @@
+// link to video
+// https://www.youtube.com/watch?v=AuYujVj646Q
+
+
 #include <iostream>
 using namespace std;
 #define ll long long int
